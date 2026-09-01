@@ -1,0 +1,112 @@
+{
+  "source": "MM2Values",
+  "source_url": "https://www.mm2values.com/?p=recentChanges",
+  "session": "August30-2026",
+  "pulled_at": "2026-09-01T15:55:00Z",
+  "changes": [
+    {
+      "name": "Corrupt",
+      "delta": -25
+    },
+    {
+      "name": "Bones Gun",
+      "delta": -5
+    },
+    {
+      "name": "Chroma Travelers Gun",
+      "delta": -5000
+    },
+    {
+      "name": "Chroma Sunset",
+      "delta": -250
+    },
+    {
+      "name": "Chroma Sunrise",
+      "delta": -250
+    },
+    {
+      "name": "Chroma Constellation",
+      "delta": 1000
+    },
+    {
+      "name": "Dungeon",
+      "delta": -5
+    },
+    {
+      "name": "Chroma Blizzard",
+      "delta": -250
+    },
+    {
+      "name": "Chroma Treat",
+      "delta": -50
+    },
+    {
+      "name": "Chroma Sweet",
+      "delta": -50
+    },
+    {
+      "name": "Chroma Icecream",
+      "delta": 50
+    },
+    {
+      "name": "Luger",
+      "delta": -2
+    },
+    {
+      "name": "Ornament",
+      "delta": 5
+    },
+    {
+      "name": "Icecream",
+      "delta": 15
+    },
+    {
+      "name": "Snow Dagger",
+      "delta": -5
+    },
+    {
+      "name": "WaterGun",
+      "delta": -5
+    },
+    {
+      "name": "Xenoknife",
+      "delta": 25
+    },
+    {
+      "name": "Xenoshot",
+      "delta": 25
+    },
+    {
+      "name": "Sunrise",
+      "delta": 50
+    },
+    {
+      "name": "Sunset",
+      "delta": 50
+    },
+    {
+      "name": "Turkey",
+      "delta": -25
+    },
+    {
+      "name": "Constellation",
+      "delta": 25
+    },
+    {
+      "name": "Evergreen",
+      "delta": 100
+    },
+    {
+      "name": "Alienbeam",
+      "delta": -50
+    },
+    {
+      "name": "Raygun",
+      "delta": -50
+    },
+    {
+      "name": "Vampires Gun",
+      "delta": 100
+    }
+  ]
+}
