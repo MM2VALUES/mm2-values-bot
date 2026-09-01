@@ -1,10 +1,4 @@
-/*
-  Paste the bot's Discord installation URL below.
-
-  Example:
-  https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot%20applications.commands&permissions=...
-*/
-const DISCORD_INVITE_URL = "PASTE_YOUR_DISCORD_INSTALL_URL_HERE";
+const DISCORD_INVITE_URL = "https://discord.com/oauth2/authorize?client_id=1500929703324811475";
 
 document.querySelectorAll("[data-discord-invite]").forEach(link => {
   link.addEventListener("click", event => {
