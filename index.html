@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a0b0f">
+  <meta name="description" content="MM2 Values Bot - check MM2 item values, compare items, check trades and track value changes in Discord.">
+  <title>MM2 Values Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav-shell">
+    <div class="nav wrap">
+      <a class="brand" href="#top" aria-label="MM2 Values Bot home">
+        <span class="brand-mark">MM2</span>
+        <span>MM2 Values Bot</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#value">Value</a>
+        <a href="#trade">Trade</a>
+        <a href="#updates">Updates</a>
+        <a href="#commands">Commands</a>
+        <a href="#setup">Setup</a>
+      </nav>
+
+      <a class="discord-btn small" data-discord-invite href="#">
+        Add to Discord
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="label">MM2 VALUES BOT</p>
+        <h1>Check values.<br>Check trades.<br><span>Stay in Discord.</span></h1>
+        <p class="hero-text">
+          Look up MM2 items, compare two weapons, check a trade and see recent value changes without switching tabs.
+        </p>
+
+        <div class="hero-actions">
+          <a class="discord-btn" data-discord-invite href="#">Add to Discord</a>
+          <a class="secondary-btn" href="#commands">View commands</a>
+        </div>
+
+        <div class="facts">
+          <div>
+            <strong>9</strong>
+            <span>commands</span>
+          </div>
+          <div>
+            <strong>1,006+</strong>
+            <span>MM2 items</span>
+          </div>
+          <div>
+            <strong>MM2Values</strong>
+            <span>value source</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="discord-window">
+        <div class="window-bar">
+          <span># mm2-values</span>
+          <span class="window-dots"><i></i><i></i><i></i></span>
+        </div>
+
+        <div class="discord-chat">
+          <div class="user-line">
+            <span class="mini-avatar user"></span>
+            <div><b>vz</b> <span>used /value</span></div>
+          </div>
+
+          <div class="bot-line">
+            <span class="mini-avatar bot">MM2</span>
+            <div class="message-column">
+              <div class="bot-title">MM2values <em>APP</em></div>
+              <div class="discord-embed">
+                <h3>Candy</h3>
+                <p>MM2Values · Godly</p>
+                <div class="embed-fields">
+                  <div><span>Value</span><b>85</b></div>
+                  <div><span>Range</span><b>N/A</b></div>
+                  <div><span>Demand</span><b>2</b></div>
+                  <div><span>Rarity</span><b>2</b></div>
+                  <div><span>Stability</span><b>Stable</b></div>
+                </div>
+                <small>Source: MM2Values.com · Snapshot: 31 Aug 2026</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof">
+      <div class="wrap proof-inner">
+        <span class="proof-title">RECENT VALUE CHANGES</span>
+        <div class="proof-list">
+          <span>Chroma Constellation <b class="up">+1,000</b></span>
+          <span>Evergreen <b class="up">+100</b></span>
+          <span>Vampires Gun <b class="up">+100</b></span>
+          <span>Corrupt <b class="down">-25</b></span>
+          <span>Turkey <b class="down">-25</b></span>
+          <span>Luger <b class="down">-2</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="value">
+      <div class="section-heading">
+        <p class="section-number">01</p>
+        <div>
+          <p class="label">VALUE LOOKUP</p>
+          <h2>Find the item. Get the numbers.</h2>
+        </div>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-copy">
+          <p>
+            Use <code>/value</code> and type an item name. The bot shows the listed value, range, demand, rarity and stability.
+          </p>
+
+          <div class="feature-list">
+            <div>
+              <strong>Typo matching</strong>
+              <span>If the name is close, the bot suggests the item you probably meant.</span>
+            </div>
+            <div>
+              <strong>Unique items</strong>
+              <span>If MM2Values lists an owner instead of a range, the bot shows the owner.</span>
+            </div>
+            <div>
+              <strong>Source shown</strong>
+              <span>You can see where the value came from in the result.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="command-preview">
+          <div class="preview-input">
+            <span>/value</span>
+            <b>candy</b>
+          </div>
+          <div class="preview-result">
+            <div>
+              <small>ITEM</small>
+              <strong>Candy</strong>
+              <span>Godly</span>
+            </div>
+            <div class="preview-value">
+              <small>VALUE</small>
+              <strong>85</strong>
+            </div>
+          </div>
+          <div class="preview-foot">Example uses the 31 Aug 2026 source snapshot.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tinted" id="trade">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="section-number">02</p>
+          <div>
+            <p class="label">TRADE CHECK</p>
+            <h2>See the trade before you accept it.</h2>
+          </div>
+        </div>
+
+        <div class="trade-card">
+          <div class="trade-side">
+            <div class="trade-side-head">
+              <span>YOU GIVE</span>
+              <strong>205</strong>
+            </div>
+            <div class="trade-row"><span>Candy</span><b>85</b></div>
+            <div class="trade-row"><span>Bat</span><b>120</b></div>
+          </div>
+
+          <div class="verdict">
+            <small>RESULT</small>
+            <strong>W</strong>
+            <span>+20</span>
+          </div>
+
+          <div class="trade-side">
+            <div class="trade-side-head">
+              <span>YOU GET</span>
+              <strong>225</strong>
+            </div>
+            <div class="trade-row"><span>WaterGun</span><b>225</b></div>
+          </div>
+        </div>
+
+        <p class="fine-print">
+          W, F or L is based on listed value totals. Demand and personal preference can still affect whether a trade is worth doing.
+        </p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="updates">
+      <div class="section-heading">
+        <p class="section-number">03</p>
+        <div>
+          <p class="label">UPDATES</p>
+          <h2>See what moved.</h2>
+        </div>
+      </div>
+
+      <div class="updates-grid">
+        <div class="update-panel">
+          <div class="update-head">
+            <span>/updates</span>
+            <small>MM2Values</small>
+          </div>
+          <div class="update-line"><strong>Chroma Constellation</strong><b class="up">+1,000</b></div>
+          <div class="update-line"><strong>Evergreen</strong><b class="up">+100</b></div>
+          <div class="update-line"><strong>Vampires Gun</strong><b class="up">+100</b></div>
+          <div class="update-line"><strong>Corrupt</strong><b class="down">-25</b></div>
+          <div class="update-line"><strong>Turkey</strong><b class="down">-25</b></div>
+        </div>
+
+        <div class="updates-copy">
+          <p>
+            <code>/updates</code> shows recent value changes detected by the bot. If nothing changed, it says so.
+          </p>
+
+          <div class="quiet-card">
+            <small>NO NEW CHANGES</small>
+            <strong>No value changes detected.</strong>
+            <span>Last checked 6 minutes ago.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="commands">
+      <div class="section-heading">
+        <p class="section-number">04</p>
+        <div>
+          <p class="label">COMMANDS</p>
+          <h2>The full command list.</h2>
+        </div>
+      </div>
+
+      <div class="commands">
+        <article>
+          <code>/value</code>
+          <h3>Value</h3>
+          <p>Check an item's value, range or owner, demand, rarity and stability.</p>
+        </article>
+        <article>
+          <code>/trade</code>
+          <h3>Trade</h3>
+          <p>Total both sides and return W, F or L.</p>
+        </article>
+        <article>
+          <code>/compare</code>
+          <h3>Compare</h3>
+          <p>Compare two items side by side.</p>
+        </article>
+        <article>
+          <code>/updates</code>
+          <h3>Updates</h3>
+          <p>See recent value changes.</p>
+        </article>
+        <article>
+          <code>/setup</code>
+          <h3>Setup</h3>
+          <p>Choose where value and MM2 updates are sent.</p>
+        </article>
+        <article>
+          <code>/settings</code>
+          <h3>Settings</h3>
+          <p>View this server's bot settings.</p>
+        </article>
+        <article>
+          <code>/help</code>
+          <h3>Help</h3>
+          <p>See the command list in Discord.</p>
+        </article>
+        <article>
+          <code>/about</code>
+          <h3>About</h3>
+          <p>See bot and source information.</p>
+        </article>
+        <article>
+          <code>/privacy</code>
+          <h3>Privacy</h3>
+          <p>Open the privacy policy.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="setup" id="setup">
+      <div class="wrap setup-grid">
+        <div class="setup-copy">
+          <p class="label light-label">SERVER SETUP</p>
+          <h2>Choose where updates go.</h2>
+          <p>
+            Pick a channel for value updates and another for MM2 updates. Use existing channels, create new ones or turn either feed off.
+          </p>
+          <div class="setup-actions">
+            <a class="discord-btn white" data-discord-invite href="#">Add to Discord</a>
+            <a class="setup-link" href="#commands">View commands</a>
+          </div>
+          <small>
+            Current v1 note: setup settings can reset when the bot restarts. Persistent storage is still being added.
+          </small>
+        </div>
+
+        <div class="setup-panel">
+          <div class="setup-panel-head">
+            <strong>MM2 VALUES BOT SETUP</strong>
+            <span class="online-dot"></span>
+          </div>
+
+          <div class="setup-setting">
+            <div>
+              <small>VALUE UPDATES</small>
+              <strong>#mm2-values</strong>
+            </div>
+            <span>SELECTED</span>
+          </div>
+
+          <div class="setup-setting">
+            <div>
+              <small>MM2 UPDATES</small>
+              <strong>#mm2-updates</strong>
+            </div>
+            <span>SELECTED</span>
+          </div>
+
+          <div class="setup-panel-actions">
+            <button type="button">Create channel</button>
+            <button type="button">Disable</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap source-section">
+      <div class="source-card">
+        <div>
+          <p class="label">VALUE SOURCE</p>
+          <h2>MM2Values</h2>
+          <p>MM2 Values Bot currently uses MM2Values for item values.</p>
+        </div>
+        <a href="https://www.mm2values.com/" target="_blank" rel="noopener noreferrer">Open MM2Values</a>
+      </div>
+    </section>
+
+    <section class="cta wrap">
+      <div>
+        <p class="label">MM2 VALUES BOT</p>
+        <h2>Ready for your server.</h2>
+      </div>
+      <a class="discord-btn" data-discord-invite href="#">Add to Discord</a>
+    </section>
+  </main>
+
+  <footer class="footer wrap">
+    <div>
+      <strong>MM2 Values Bot</strong>
+      <p>Independent project. Not affiliated with Roblox, Murder Mystery 2 or MM2Values.</p>
+    </div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
