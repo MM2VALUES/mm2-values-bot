@@ -1,0 +1,56 @@
+name: Update MM2 recent changes
+
+on:
+  schedule:
+    # GitHub cron cannot express "every 10 days" reliably across months.
+    # Run once per day; the script only fetches when 10 days have passed.
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force an update even if 10 days have not passed"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install scraper dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Pull latest MM2Values changes
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.force }}" == "true" ]]; then
+            python scripts/update_recent_changes.py --force
+          else
+            python scripts/update_recent_changes.py
+          fi
+
+      - name: Commit if data changed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/recent-changes.json; then
+            echo "No data change to commit."
+            exit 0
+          fi
+
+          git config user.name "MM2 Values Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/recent-changes.json
+          git commit -m "Update recent MM2 value changes"
+          git push
