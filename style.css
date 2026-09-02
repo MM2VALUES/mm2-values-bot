@@ -304,3 +304,38 @@ code{font-family:Consolas,"SFMono-Regular",monospace}
   .cta .discord-btn{margin-top:22px}
   .footer-links{margin-top:16px}
 }
+
+
+/* Dynamic /updates card - keep each value change readable */
+.update-lines {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.update-lines > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 15px 17px;
+  border-bottom: 1px solid #1d2129;
+  font-size: 10px;
+  line-height: 1.35;
+}
+
+.update-lines > span:last-child {
+  border-bottom: 0;
+}
+
+.update-lines > span > b {
+  flex: 0 0 auto;
+  margin-left: auto;
+  font-weight: 800;
+}
+
+/* Keep the top Recent Value Changes strip horizontal */
+.proof-list > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
