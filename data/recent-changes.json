@@ -1,104 +1,152 @@
 {
   "source": "MM2Values",
   "source_url": "https://www.mm2values.com/?p=recentChanges",
-  "session": "September11-2026",
-  "pulled_at": "2026-09-12T09:22:16.121249Z",
+  "session": "September23-2026",
+  "pulled_at": "2026-09-24T10:01:33.056745Z",
   "changes": [
     {
+      "name": "Phaser",
+      "delta": 15
+    },
+    {
+      "name": "Prince",
+      "delta": 15
+    },
+    {
+      "name": "Cowboy",
+      "delta": 15
+    },
+    {
+      "name": "Laser",
+      "delta": 15
+    },
+    {
+      "name": "Shadow",
+      "delta": 20
+    },
+    {
+      "name": "Golden",
+      "delta": 20
+    },
+    {
+      "name": "Ghost",
+      "delta": 15
+    },
+    {
       "name": "Celestial",
-      "delta": 50
-    },
-    {
-      "name": "Gingerscope",
-      "delta": -250
-    },
-    {
-      "name": "Chroma Travelers Gun",
-      "delta": -10000
-    },
-    {
-      "name": "Chroma Evergun",
-      "delta": -3000
-    },
-    {
-      "name": "Chroma Evergreen",
-      "delta": -2000
-    },
-    {
-      "name": "Chroma Sunrise",
-      "delta": -500
-    },
-    {
-      "name": "Chroma Sunset",
-      "delta": -250
-    },
-    {
-      "name": "Chroma Blizzard",
-      "delta": 250
-    },
-    {
-      "name": "Chroma WaterGun",
-      "delta": -250
-    },
-    {
-      "name": "Chroma Beachy",
-      "delta": 50
-    },
-    {
-      "name": "Chroma Sands",
-      "delta": 50
-    },
-    {
-      "name": "Chroma Icecream",
-      "delta": 50
-    },
-    {
-      "name": "Ornament",
-      "delta": -10
-    },
-    {
-      "name": "Icecream",
-      "delta": -20
-    },
-    {
-      "name": "Snowstorm",
-      "delta": 20
-    },
-    {
-      "name": "Blizzard",
-      "delta": 20
-    },
-    {
-      "name": "Sunrise",
-      "delta": -125
-    },
-    {
-      "name": "Sunset",
       "delta": -50
     },
     {
+      "name": "Chroma Sands",
+      "delta": -50
+    },
+    {
+      "name": "Chroma Beachy",
+      "delta": -50
+    },
+    {
+      "name": "Beachy",
+      "delta": -5
+    },
+    {
+      "name": "Sands",
+      "delta": -5
+    },
+    {
+      "name": "Vampires Gun",
+      "delta": 50
+    },
+    {
+      "name": "Raygun",
+      "delta": -25
+    },
+    {
+      "name": "Gingerscope",
+      "delta": 250
+    },
+    {
+      "name": "Ornament",
+      "delta": -5
+    },
+    {
+      "name": "Candy",
+      "delta": 5
+    },
+    {
+      "name": "Sands",
+      "delta": -5
+    },
+    {
+      "name": "Beachy",
+      "delta": -5
+    },
+    {
+      "name": "WaterGun",
+      "delta": -5
+    },
+    {
+      "name": "Travelers Gun",
+      "delta": -50
+    },
+    {
+      "name": "Vampires Gun",
+      "delta": 25
+    },
+    {
+      "name": "Snowstorm",
+      "delta": -10
+    },
+    {
+      "name": "Blizzard",
+      "delta": -10
+    },
+    {
       "name": "Turkey",
-      "delta": -100
+      "delta": 225
     },
     {
       "name": "Raygun",
       "delta": -50
     },
     {
-      "name": "Turkey",
+      "name": "Constellation",
+      "delta": -75
+    },
+    {
+      "name": "Chroma Sunset",
+      "delta": 250
+    },
+    {
+      "name": "Chroma Travelers Gun",
+      "delta": -5000
+    },
+    {
+      "name": "Chroma Evergun",
+      "delta": -2000
+    },
+    {
+      "name": "Chroma Evergreen",
+      "delta": -1000
+    },
+    {
+      "name": "Chroma Beachy",
       "delta": -50
     },
     {
-      "name": "Alienbeam",
+      "name": "Chroma Sands",
+      "delta": -50
+    },
+    {
+      "name": "Chroma Icecream",
       "delta": -100
     },
     {
-      "name": "Evergreen",
+      "name": "Celestial",
       "delta": -100
     },
     {
-      "name": "Vampires Gun",
-      "delta": -150
+      "name": "Gingerscope",
+      "delta": 250
     }
   ]
 }
