@@ -1,152 +1,120 @@
 {
   "source": "MM2Values",
   "source_url": "https://www.mm2values.com/?p=recentChanges",
-  "session": "September23-2026",
-  "pulled_at": "2026-09-24T10:01:33.056745Z",
+  "session": "October2-2026",
+  "pulled_at": "2026-10-04T11:07:08.655749Z",
   "changes": [
-    {
-      "name": "Phaser",
-      "delta": 15
-    },
-    {
-      "name": "Prince",
-      "delta": 15
-    },
-    {
-      "name": "Cowboy",
-      "delta": 15
-    },
-    {
-      "name": "Laser",
-      "delta": 15
-    },
-    {
-      "name": "Shadow",
-      "delta": 20
-    },
-    {
-      "name": "Golden",
-      "delta": 20
-    },
-    {
-      "name": "Ghost",
-      "delta": 15
-    },
-    {
-      "name": "Celestial",
-      "delta": -50
-    },
-    {
-      "name": "Chroma Sands",
-      "delta": -50
-    },
-    {
-      "name": "Chroma Beachy",
-      "delta": -50
-    },
-    {
-      "name": "Beachy",
-      "delta": -5
-    },
-    {
-      "name": "Sands",
-      "delta": -5
-    },
-    {
-      "name": "Vampires Gun",
-      "delta": 50
-    },
-    {
-      "name": "Raygun",
-      "delta": -25
-    },
-    {
-      "name": "Gingerscope",
-      "delta": 250
-    },
     {
       "name": "Ornament",
       "delta": -5
     },
     {
-      "name": "Candy",
+      "name": "Flowerwood Knife",
+      "delta": -10
+    },
+    {
+      "name": "Flowerwood Gun",
+      "delta": -10
+    },
+    {
+      "name": "Waves",
+      "delta": -5
+    },
+    {
+      "name": "Ocean",
+      "delta": -5
+    },
+    {
+      "name": "Sunset",
+      "delta": -25
+    },
+    {
+      "name": "Snowcannon",
       "delta": 5
     },
     {
-      "name": "Sands",
-      "delta": -5
-    },
-    {
-      "name": "Beachy",
-      "delta": -5
-    },
-    {
-      "name": "WaterGun",
-      "delta": -5
-    },
-    {
-      "name": "Travelers Gun",
-      "delta": -50
-    },
-    {
-      "name": "Vampires Gun",
-      "delta": 25
-    },
-    {
-      "name": "Snowstorm",
+      "name": "Sakura",
       "delta": -10
     },
     {
-      "name": "Blizzard",
-      "delta": -10
-    },
-    {
-      "name": "Turkey",
-      "delta": 225
+      "name": "Blossom",
+      "delta": -15
     },
     {
       "name": "Raygun",
-      "delta": -50
+      "delta": -100
     },
     {
-      "name": "Constellation",
-      "delta": -75
+      "name": "Alienbeam",
+      "delta": -100
+    },
+    {
+      "name": "Turkey",
+      "delta": -100
+    },
+    {
+      "name": "Evergreen",
+      "delta": 100
+    },
+    {
+      "name": "Chroma Icecream",
+      "delta": 50
+    },
+    {
+      "name": "Chroma WaterGun",
+      "delta": -200
+    },
+    {
+      "name": "Chroma Heart Wand",
+      "delta": -150
     },
     {
       "name": "Chroma Sunset",
+      "delta": -250
+    },
+    {
+      "name": "Chroma Raygun",
       "delta": 250
+    },
+    {
+      "name": "Chroma Constellation",
+      "delta": -1000
+    },
+    {
+      "name": "Chroma Bauble",
+      "delta": -1000
+    },
+    {
+      "name": "Chroma Evergreen",
+      "delta": 2000
     },
     {
       "name": "Chroma Travelers Gun",
       "delta": -5000
     },
     {
-      "name": "Chroma Evergun",
-      "delta": -2000
-    },
-    {
-      "name": "Chroma Evergreen",
-      "delta": -1000
-    },
-    {
-      "name": "Chroma Beachy",
-      "delta": -50
-    },
-    {
-      "name": "Chroma Sands",
-      "delta": -50
-    },
-    {
-      "name": "Chroma Icecream",
-      "delta": -100
-    },
-    {
-      "name": "Celestial",
+      "name": "Travelers Axe",
       "delta": -100
     },
     {
       "name": "Gingerscope",
-      "delta": 250
+      "delta": -250
+    },
+    {
+      "name": "Bunnies",
+      "delta": 5
+    },
+    {
+      "name": "Latte Knife",
+      "delta": 5
+    },
+    {
+      "name": "Latte Gun",
+      "delta": 5
+    },
+    {
+      "name": "Gingerscope",
+      "delta": -250
     }
   ]
 }
