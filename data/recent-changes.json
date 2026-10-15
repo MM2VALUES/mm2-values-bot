@@ -1,120 +1,204 @@
 {
   "source": "MM2Values",
   "source_url": "https://www.mm2values.com/?p=recentChanges",
-  "session": "October2-2026",
-  "pulled_at": "2026-10-04T11:07:08.655749Z",
+  "session": "October14-2026",
+  "pulled_at": "2026-10-15T09:54:57.023707Z",
   "changes": [
     {
-      "name": "Ornament",
-      "delta": -5
+      "name": "Gingerscope",
+      "delta": -250
     },
     {
-      "name": "Flowerwood Knife",
-      "delta": -10
+      "name": "Travelers Axe",
+      "delta": -50
     },
     {
-      "name": "Flowerwood Gun",
-      "delta": -10
-    },
-    {
-      "name": "Waves",
-      "delta": -5
-    },
-    {
-      "name": "Ocean",
-      "delta": -5
-    },
-    {
-      "name": "Sunset",
-      "delta": -25
-    },
-    {
-      "name": "Snowcannon",
-      "delta": 5
+      "name": "Sunrise",
+      "delta": -50
     },
     {
       "name": "Sakura",
-      "delta": -10
+      "delta": -20
     },
     {
       "name": "Blossom",
-      "delta": -15
+      "delta": -20
     },
     {
       "name": "Raygun",
-      "delta": -100
-    },
-    {
-      "name": "Alienbeam",
-      "delta": -100
-    },
-    {
-      "name": "Turkey",
-      "delta": -100
-    },
-    {
-      "name": "Evergreen",
-      "delta": 100
-    },
-    {
-      "name": "Chroma Icecream",
       "delta": 50
     },
     {
-      "name": "Chroma WaterGun",
+      "name": "Alienbeam",
+      "delta": 50
+    },
+    {
+      "name": "Snowstorm",
+      "delta": -5
+    },
+    {
+      "name": "Blizzard",
+      "delta": -5
+    },
+    {
+      "name": "Traveler Knife",
+      "delta": 1
+    },
+    {
+      "name": "Makeshift Knife",
+      "delta": -5
+    },
+    {
+      "name": "Swirl Knife",
+      "delta": -2
+    },
+    {
+      "name": "Wraith Knife",
+      "delta": 2.58
+    },
+    {
+      "name": "GingerBread",
+      "delta": 0.02
+    },
+    {
+      "name": "Starry Knife",
+      "delta": 0.58
+    },
+    {
+      "name": "Xeno Knife",
+      "delta": -0.57
+    },
+    {
+      "name": "Darkgun",
+      "delta": 0.58
+    },
+    {
+      "name": "Ghastly Knife",
+      "delta": 0.1
+    },
+    {
+      "name": "Box of Fert",
+      "delta": -1
+    },
+    {
+      "name": "Box of Green Papers",
+      "delta": -1
+    },
+    {
+      "name": "Box of Red Papers",
+      "delta": -2
+    },
+    {
+      "name": "Box of Blue Papers",
+      "delta": -2
+    },
+    {
+      "name": "Box of Purple Papers",
+      "delta": -2
+    },
+    {
+      "name": "Box of Ultra Wrap",
+      "delta": -2
+    },
+    {
+      "name": "Box of Gold Papers",
+      "delta": -2
+    },
+    {
+      "name": "Brains",
+      "delta": -0.56
+    },
+    {
+      "name": "Santa (Gun)",
+      "delta": -0.57
+    },
+    {
+      "name": "Santa (Knife)",
+      "delta": -0.57
+    },
+    {
+      "name": "Carrot",
+      "delta": -1
+    },
+    {
+      "name": "Goo",
+      "delta": -1
+    },
+    {
+      "name": "TNL",
+      "delta": -1
+    },
+    {
+      "name": "Neon",
+      "delta": -1
+    },
+    {
+      "name": "Reptile",
+      "delta": -1
+    },
+    {
+      "name": "Egg",
+      "delta": -1
+    },
+    {
+      "name": "Patrick",
+      "delta": -1
+    },
+    {
+      "name": "Infected",
+      "delta": -1
+    },
+    {
+      "name": "Bones Gun",
+      "delta": 15
+    },
+    {
+      "name": "Lantern Knife",
+      "delta": 1.59
+    },
+    {
+      "name": "Moonlight Gun",
+      "delta": 0.58
+    },
+    {
+      "name": "Wolf",
+      "delta": -2
+    },
+    {
+      "name": "Celestial",
+      "delta": -50
+    },
+    {
+      "name": "Travelers Axe",
       "delta": -200
     },
     {
-      "name": "Chroma Heart Wand",
-      "delta": -150
+      "name": "Gingerscope",
+      "delta": -250
+    },
+    {
+      "name": "Vampires Axe",
+      "delta": -50
+    },
+    {
+      "name": "Chroma Sunrise",
+      "delta": -250
+    },
+    {
+      "name": "Chroma Raygun",
+      "delta": -250
     },
     {
       "name": "Chroma Sunset",
       "delta": -250
     },
     {
-      "name": "Chroma Raygun",
-      "delta": 250
-    },
-    {
-      "name": "Chroma Constellation",
-      "delta": -1000
-    },
-    {
-      "name": "Chroma Bauble",
-      "delta": -1000
-    },
-    {
       "name": "Chroma Evergreen",
-      "delta": 2000
+      "delta": -1500
     },
     {
-      "name": "Chroma Travelers Gun",
-      "delta": -5000
-    },
-    {
-      "name": "Travelers Axe",
-      "delta": -100
-    },
-    {
-      "name": "Gingerscope",
-      "delta": -250
-    },
-    {
-      "name": "Bunnies",
-      "delta": 5
-    },
-    {
-      "name": "Latte Knife",
-      "delta": 5
-    },
-    {
-      "name": "Latte Gun",
-      "delta": 5
-    },
-    {
-      "name": "Gingerscope",
-      "delta": -250
+      "name": "Chroma Evergun",
+      "delta": -2000
     }
   ]
 }
